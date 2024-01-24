@@ -1,0 +1,9 @@
+com\bodex\bodvoice\MainController.class
+com\bodex\bodvoice\MainApplication.class
+com\bodex\bodvoice\User.class
+com\bodex\bodvoice\DataBaseConnector.class
+com\bodex\bodvoice\DatabaseInformation.class
+com\bodex\bodvoice\UserLogin.class
+com\bodex\bodvoice\Validations.class
+module-info.class
+com\bodex\bodvoice\TokenUser.class

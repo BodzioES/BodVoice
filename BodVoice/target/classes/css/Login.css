@@ -1,0 +1,5 @@
+.window-button {
+    -fx-background-color: #7289da;
+    -fx-shape: "M 0 0 h 1 v 1 h 1 v 1 h -1 v 1 h -1 Z";
+    -fx-background-radius: 0;
+}

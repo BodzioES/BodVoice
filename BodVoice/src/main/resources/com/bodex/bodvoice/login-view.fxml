@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="292.0" prefWidth="460.0" style="-fx-background-color: #36393f;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bodex.bodvoice.LoginController">
+
+    <VBox alignment="CENTER" layoutX="230.0" layoutY="1.0" prefHeight="291.0" prefWidth="230.0" spacing="10">
+        <Label style="-fx-text-fill: white; -fx-font-size: 18px;" text="Login" />
+        <TextField fx:id="usernameField" prefHeight="25.0" prefWidth="194.0" promptText="Username" style="-fx-background-color: #202225; -fx-text-fill: white;" />
+        <Label style="-fx-text-fill: white; -fx-font-size: 18px;" text="Password" />
+        <PasswordField fx:id="passwordField" promptText="Password" style="-fx-background-color: #202225; -fx-text-fill: white;" />
+        <Hyperlink onAction="#switchToSceneRegister" prefHeight="20.0" prefWidth="222.0" text="You don't have an account? Create now!" />
+        <Button alignment="CENTER" onAction="#handleLogin" prefHeight="15.0" prefWidth="81.0" style="-fx-background-color: #4E5459; -fx-text-fill: white;" text="Login">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+    </VBox>
+   <VBox alignment="CENTER" layoutX="-5.0" layoutY="-3.0" prefHeight="292.0" prefWidth="230.0">
+      <children>
+         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../image/BodCHAT.png" />
+            </image>
+         </ImageView>
+         <Label prefHeight="68.0" prefWidth="180.0" text="Welcome back to BodChat!" textFill="#f7dd00">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+      </children>
+   </VBox>
+
+
+</AnchorPane>
