@@ -13,7 +13,7 @@ public class MainApplication extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Image icon = new Image("D:\\Programowanie\\JAVA\\BodVoice\\src\\main\\resources\\image\\BodCHAT.png");
+        Image icon = new Image("D:\\Programowanie\\JAVA\\BodVoice\\BodVoice\\src\\main\\resources\\image\\BodCHAT.png");
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("login-view.fxml")));
         Scene scene = new Scene(root);
 
