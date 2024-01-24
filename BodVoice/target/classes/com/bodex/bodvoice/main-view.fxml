@@ -6,33 +6,25 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="400.0" minWidth="600.0"
-            prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #36393f;"
-            xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="com.bodex.bodvoice.MainController"
-            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://javafx.com/javafx/21 ">
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="400.0" minWidth="600.0" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #36393f;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bodex.bodvoice.MainController">
    <children>
-      <AnchorPane prefHeight="600.0" prefWidth="200.0" style="-fx-background-color: #2e3137;"
-                  AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane prefHeight="600.0" prefWidth="200.0" style="-fx-background-color: #2e3137;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <Label fx:id="nickLabel" alignment="CENTER" prefHeight="90.0" prefWidth="200.0" textFill="#e0ff44">
                <font>
-                  <Font size="39.0"/>
-               </font>
-            </Label>
-            <VBox layoutX="9.0" layoutY="100.0" prefHeight="492.0" prefWidth="182.0"
-                  style="-fx-background-color: #36393f;" AnchorPane.bottomAnchor="8.0" AnchorPane.topAnchor="100.0">
+                  <Font size="39.0" />
+               </font></Label>
+            <VBox layoutX="9.0" layoutY="100.0" prefHeight="492.0" prefWidth="182.0" style="-fx-background-color: #36393f;" AnchorPane.bottomAnchor="8.0" AnchorPane.topAnchor="100.0">
                <children>
                   <Label alignment="CENTER" prefHeight="25.0" prefWidth="182.0" text="Friends:" textFill="#ffff4c">
                      <font>
-                        <Font size="20.0"/>
+                        <Font size="20.0" />
                      </font>
                   </Label>
-                  <Line endX="81.0" startX="-100.0" style="-fx-cursor: #444242;"/>
-                  <VBox fx:id="friendVBox" prefHeight="462.0" prefWidth="182.0"/>
+                  <Line endX="81.0" startX="-100.0" style="-fx-cursor: #444242;" />
+                  <VBox fx:id="friendVBox" prefHeight="462.0" prefWidth="182.0" />
                </children>
             </VBox>
-         </children>
-      </AnchorPane>
+         </children></AnchorPane>
    </children>
 </AnchorPane>
